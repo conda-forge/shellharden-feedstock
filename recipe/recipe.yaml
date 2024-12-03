@@ -1,11 +1,8 @@
-schema_version: 1
-
 context:
-  name: shellharden
   version: 4.3.1
 
 package:
-  name: ${{ name|lower }}
+  name: shellharden
   version: ${{ version }}
 
 source:
@@ -38,4 +35,3 @@ about:
 extra:
   recipe-maintainers:
     - danielnachun
-
